@@ -50,12 +50,13 @@
             <CalendarView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/calender_v">
+                android:id="@+id/calendar_v">
             </CalendarView>
             <TimePicker
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/time_pick">
+                android:id="@+id/time_pick"
+                android:timePickerMode="spinner">
             </TimePicker>
         </FrameLayout>
     </LinearLayout>
